@@ -1,0 +1,117 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.outer{
+	height: 500px;
+	border-left: 5px solid black;
+	border-right: 5px solid black;
+}
+.notice{
+	height: 20px;
+	background: #ccc;
+}
+.img{
+	position: absolute;
+	left: 200px;
+}
+/*滚动文字*/
+#demo1{
+	width: 	850px;
+	height: 30px;
+	position: absolute;
+	left: 260px;
+	overflow: hidden;
+}
+.qimo8{
+    overflow: hidden;
+    width: 1300px;
+    position: absolute;
+ 	right: 100px;
+    top: 0px;
+    float: left;
+}
+.qimo8 .qimo{
+	overflow: hidden;
+    width: 100%;
+    height: 30px;
+}
+.qimo8 .qimo div{
+    float: left;
+}
+.qimo8 .qimo ul{
+	float: left;
+    height: 30px;
+    overflow: hidden;
+}
+.qimo8 .qimo ul li{
+    width: 500px;
+    float: left;
+    position: absolute;
+    left: 1175px
+    line-height: 30px;
+    list-style: none;
+    color:red;
+}
+
+.box{
+	position: relative;
+	top: 30px;
+	margin: 0 auto;
+	width: 1200px;
+	height: 382px;
+	overflow: hidden;
+}
+.slider{
+	width: 8400px;
+	position: absolute;
+	left: -1200px;
+}
+.slide{
+	width: 1200px;
+	overflow: hidden;
+	float: left;
+}
+.box>span{
+	display: block;
+	width: 30px;
+	height: 50px;
+	text-align: center;
+	cursor: pointer;
+	color: ;
+	top:175px;
+	line-height: 50px;
+	background-color: rgb(255,0,0);
+	font-size: 30px;
+	position: absolute;
+	opacity: 0;
+}
+#left{
+	left: 30px;
+	color: white;
+}
+#right{
+	right: 30px;
+	color: white;
+}
+.nav{
+	position: absolute;
+	left: 500px;
+	bottom:5px;
+}
+ul,li{
+	display: inline-block;
+	text-align: center;
+}
+.nav>li{
+	float: left;
+	width: 20px;
+	height: 20px;
+	background: #ccc;
+	cursor: pointer;
+	margin: 0 10px;
+	border-radius: 50%;
+}
+.nav .active{
+	background: red;
+}
